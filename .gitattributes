@@ -1,0 +1,5 @@
+# LFS
+clear/**/*.zip filter=lfs diff=lfs merge=lfs -text
+
+# git-crypt
+encrypted/** filter=git-crypt diff=git-crypt
