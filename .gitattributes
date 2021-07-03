@@ -1,4 +1,22 @@
+# WARNIING: LFS and git-crypt don't play well together; keep them separate.
 # LFS
+clear/**/*.3gp filter=lfs diff=lfs merge=lfs -text
+clear/**/*.7z filter=lfs diff=lfs merge=lfs -text
+clear/**/*.epub filter=lfs diff=lfs merge=lfs -text
+clear/**/*.flv filter=lfs diff=lfs merge=lfs -text
+clear/**/*.gif filter=lfs diff=lfs merge=lfs -text
+clear/**/*.gz filter=lfs diff=lfs merge=lfs -text
+clear/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+clear/**/*.JPG filter=lfs diff=lfs merge=lfs -text
+clear/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+clear/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+clear/**/*.ogg filter=lfs diff=lfs merge=lfs -text
+clear/**/*.okular filter=lfs diff=lfs merge=lfs -text
+clear/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+clear/**/*.png filter=lfs diff=lfs merge=lfs -text
+clear/**/*.ps filter=lfs diff=lfs merge=lfs -text
+clear/**/*.tar filter=lfs diff=lfs merge=lfs -text
+clear/**/*.xcf filter=lfs diff=lfs merge=lfs -text
 clear/**/*.zip filter=lfs diff=lfs merge=lfs -text
 
 # git-crypt
